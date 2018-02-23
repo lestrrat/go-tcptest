@@ -3,6 +3,10 @@ go-tcptest
 
 Start A Network Server On Random Local Port (Port of Perl5's [Test::TCP](https://metacpan.org/release/Test-TCP))
 
+# WARNING
+
+This repository has been moved to [github.com/lestrrat-go/tcptest](https://github.com/lestrrat-go/tcptest). This repository exists so that libraries pointing to this URL will keep functioning, but this repository will NOT be updated in the future. Please use the new import path.
+
 ```go
   var cmd *exec.Cmd
   memd := func(port int) {
